@@ -768,6 +768,17 @@ L["Bar Height"] = true
 L["How tall the section-header bar is. The bar is centered on the header row, so larger values fill more of it."] = true
 L["Edge Softness"] = true
 L["How soft the header bar's feathered edges are when Soft edges is on. Higher is softer, lower tightens toward a hard edge."] = true
+L["Scenario Bonus Objectives"] = true
+L["Show bonus objectives HUD"] = true
+L["Shows a small movable checklist of the extra bonus objectives that appear during some scenarios and delves, so you do not miss their rewards. Drag to move, right-click to lock or reset. Off by default."] = true
+L["Test"] = true
+L["Draws the HUD with two made-up bonus objectives so you can position and size it without being in a scenario or delve. Click again to clear it."] = true
+L["Fills the HUD behind its text."] = true
+L["Background color and opacity for the HUD. While this is unset it uses a plain black fill that fades slightly once locked."] = true
+L["Draws a border around the HUD."] = true
+L["Border color and opacity for the HUD."] = true
+L["HUD Scale"] = true
+L["Sizes the bonus objectives HUD."] = true
 L["Colors & Dimensions"] = true
 L["Reset to Defaults"] = true
 L["Reset every setting on this tab to its defaults? The interface will reload."] = true
@@ -843,17 +854,6 @@ L["Draws a one pixel border around the bar."] = true
 L["Color and opacity of the bar's border."] = true
 L["How tall each progress bar is drawn."] = true
 L["Sets the fill texture of the progress bars. Textures added by other media addons (such as SharedMedia, ElvUI, or Details) appear here too."] = true
-L["Scenario Bonus Objectives"] = true
-L["Show bonus objectives HUD"] = true
-L["Shows a small movable checklist of the extra bonus objectives that appear during some scenarios and delves, so you do not miss their rewards. Drag to move, right-click to lock or reset. Off by default."] = true
-L["Test"] = true
-L["Draws the HUD with two made-up bonus objectives so you can position and size it without being in a scenario or delve. Click again to clear it."] = true
-L["Fills the HUD behind its text."] = true
-L["Background color and opacity for the HUD. While this is unset it uses a plain black fill that fades slightly once locked."] = true
-L["Draws a border around the HUD."] = true
-L["Border color and opacity for the HUD."] = true
-L["HUD Scale"] = true
-L["Sizes the bonus objectives HUD."] = true
 
 -- EQOT: Options/TabAbout.lua
 L["Open this window"] = true
@@ -1432,6 +1432,10 @@ L["Sort Order"] = true
 L["Longest first puts the cooldown with the most time left at the start of the grow direction."] = true
 L["Max Bars"] = true
 L["Cap on how many bars this frame shows at once."] = true
+L["Show Extremely Long Cooldowns"] = true
+L["Lets this frame show cooldowns up to 60 minutes long, ignoring the Ignore Threshold that keeps them off your lanes. Anything shorter than 60 minutes is covered too, not only the very longest. It applies to this bar frame alone, so your lanes and ready boxes are unaffected, and a cooldown you hid by hand on its Filters row stays hidden. Tick it on the frame your cooldowns actually go to, which is set by Default Bar under Filters, and make sure that frame is enabled on the Bars tab. Bear in mind an hour-long bar keeps its place in the list for the whole hour, so raise Max Bars or give it a frame of its own."] = true
+L["Hand Off Below (sec)"] = true
+L["This frame lets go of a cooldown once it has this many seconds left, so a lane can take it the rest of the way. 0 keeps every cooldown on the bar until it is ready.\n\nThis only decides when the BAR lets go. What decides when the lane picks up is that lane's own Max Time and Hide Long Timers, so set this to the lane's Max Time and make sure Hide Long Timers is on for it. Without that the lane draws the cooldown the whole time, parked at the far end, instead of waiting its turn.\n\nA value above the lane's Max Time leaves a stretch where neither one draws it. It applies to everything routed to this frame, not only to long cooldowns."] = true
 L["Gap, in pixels, between stacked bars."] = true
 L["Frame Padding"] = true
 L["Tip: turn on Unlock Frames (Global tab) to drag this frame, and Test (Global tab) to preview bars."] = true
@@ -2124,6 +2128,7 @@ L["Delve Locations"] = true
 L["Current Bountiful Delves"] = true
 L["Tier Guide"] = true
 L["Shard Tracker"] = true
+L["Achievements"] = true
 L["Options"] = true
 L["About"] = true
 L["Prey Quests"] = true
@@ -2326,7 +2331,6 @@ L["Bonus loot secured - go get the boss!"] = true
 L["All bonus loot accounted for."] = true
 
 -- ED: UI/DelvesPickerInfo.lua
-L["Achievements"] = true
 L["Loot"] = true
 L["Highlighted = your gear tier"] = true
 L["Achievement data unavailable"] = true
@@ -2349,6 +2353,26 @@ L["Delver of the Depths"] = true
 L["%d to earn here"] = true
 L["(press Shift for details)"] = true
 L["Today's story (%s) still counts — run it today!"] = true
+
+-- ED: UI/TabAchievements.lua
+L["Click to hide what's left here."] = true
+L["Click to see what's left here."] = true
+L["Story variants, Sturdy Chests and tier goals for every delve"] = true
+L["Hide finished delves"] = true
+L["Achievements are account-wide and cover all of Midnight, not only this season."] = true
+L["Your Best is the highest tier Everything Delves has logged you clearing, so it only counts runs since you installed it."] = true
+L["%d of %d still to earn"] = true
+L["%d left"] = true
+L["%d of today's story variants are ones you still need"] = true
+L["None of today's story variants are new to you."] = true
+L["Still to earn: %s%d|r story variants, %s%d|r Sturdy Chests, %s%d|r tier goals"] = true
+L["Chests"] = true
+L["Depths"] = true
+L["Your Best"] = true
+L["achievement earned %s"] = true
+L["earned account-wide"] = true
+L["Tier progress for this delve could not be read."] = true
+L["Every delve is finished. Nothing left to earn."] = true
 
 -- ED: UI/TrovehunterReminder.lua
 L["Trovehunter's Bounty Reminder"] = true
