@@ -13,6 +13,7 @@
 local L = {}
 
 L["%d hidden entries restored."] = "숨긴 항목 %d개를 복원했습니다."
+L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "다른 퀘스트 애드온이 보내는 진행도도 읽어, EQ를 쓰는 사람뿐 아니라 파티 전원을 볼 수 있습니다. 파티에 들어가면 EQ가 그 애드온들이 서로에게 하는 것과 같은 방식으로 퀘스트 일지를 요청합니다. 내 진행도는 그쪽 채널로 절대 보내지 않습니다."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "구렁 안에 있는 동안 이야기 변형과 등급, 역할에 맞는 추천 진기한 물건, 진행 시간, 사망 횟수를 보여주는 화면 패널입니다."
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "추가 전리품: 원수의 금고 무리 + Sanctified Banner — 우두머리 전에 챙겨야 할 추가 전리품입니다."
 L["Bring back every entry you have hidden"] = "숨긴 항목 모두 되살리기"

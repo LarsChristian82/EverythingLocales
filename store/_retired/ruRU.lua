@@ -13,6 +13,7 @@
 local L = {}
 
 L["%d hidden entries restored."] = "Восстановлено скрытых записей: %d"
+L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "Также читает прогресс, который передают другие аддоны заданий, чтобы вы видели всю группу, а не только тех, у кого стоит EQ. Когда вы вступаете в группу, EQ запрашивает у этих аддонов журналы заданий так же, как они запрашивают их друг у друга. Ваш собственный прогресс никогда не отправляется по их каналу."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Панель на экране внутри вылазки, показывающая вариацию истории и ее ранг, рекомендованные диковинки для вашей роли, таймер прохождения и число смертей."
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "Бонусная добыча: группы у Сейфа Немезиды + Sanctified Banner — дополнительная добыча, которую стоит забрать до босса."
 L["Bring back every entry you have hidden"] = "Вернуть все скрытые вами записи"

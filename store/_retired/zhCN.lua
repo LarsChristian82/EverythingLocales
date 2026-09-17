@@ -14,6 +14,7 @@ local L = {}
 
 L[" for the many hours spent translating Everything Quests into Chinese."] = "，投入大量时间将 Everything Quests 翻译为简体中文。"
 L["%d hidden entries restored."] = "%d 条隐藏记录已恢复。"
+L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "同时读取其他任务插件广播的进度，这样你能看到队伍中的所有人，而不只是使用 EQ 的玩家。加入队伍时，EQ 会像这些插件彼此之间那样向它们请求任务日志。你自己的进度绝不会通过它们的频道发送。"
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在地下堡中的屏幕面板，显示剧情变体及其评级、适合你职责的推荐珍奇物品、计时器和死亡次数。"
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "额外战利品：死敌保险箱的怪物组 + Sanctified Banner — 开首领之前该拿到手的额外战利品。"
 L["Bring back every entry you have hidden"] = "恢复所有被隐藏的记录"

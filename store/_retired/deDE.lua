@@ -13,6 +13,7 @@
 local L = {}
 
 L["%d hidden entries restored."] = "%d ausgeblendete Einträge wiederhergestellt."
+L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "Liest auch den Fortschritt, den andere Quest-Addons senden, damit du alle in der Gruppe siehst und nicht nur die Leute mit EQ. Wenn du einer Gruppe beitrittst, fragt EQ diese Addons nach ihren Questlogs, so wie sie sich auch gegenseitig fragen. Dein eigener Fortschritt wird nie über ihren Kanal gesendet."
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "Ein Bildschirmpanel in einer Tiefe, das die Geschichtsvariante und ihre Wertung, die empfohlenen Kuriositäten für deine Rolle, deinen Laufzeit-Timer und deine Todeszahl zeigt."
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "Bonusbeute: Pakete der Nemesis-Truhe + das Sanctified Banner — die Extrabeute, die du vor dem Boss holen solltest."
 L["Bring back every entry you have hidden"] = "Alle ausgeblendeten Einträge wieder einblenden"

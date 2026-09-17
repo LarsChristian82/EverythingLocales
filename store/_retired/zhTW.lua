@@ -13,6 +13,7 @@
 local L = {}
 
 L["%d hidden entries restored."] = "%d 條隱藏記錄已恢復。"
+L["Also reads the progress other quest addons broadcast, so you see everyone in the group rather than only the people running EQ. When you join a group EQ asks those addons for their quest logs, the same way they ask each other. Your own progress is never sent on their channel."] = "同時讀取其他任務插件廣播的進度，這樣你能看到隊伍中的所有人，而不只是使用 EQ 的玩家。加入隊伍時，EQ 會像這些插件彼此之間那樣向它們請求任務日誌。你自己的進度絕不會透過它們的頻道發送。"
 L["An on-screen panel while inside a delve showing the story variant and its grade, the recommended curios for your role, your run timer, and your death count."] = "在探究中的畫面面板，顯示劇情變體及其評級、適合你職責的建議珍奇物品、計時器和死亡次數。"
 L["Bonus Spoils: Nemesis Strongbox packs + the Sanctified Banner — the bonus loot to grab before the boss."] = "額外戰利品：死敵保險箱的怪物組 + Sanctified Banner — 開首領之前該拿到手的額外戰利品。"
 L["Bring back every entry you have hidden"] = "恢復所有被隱藏的記錄"
